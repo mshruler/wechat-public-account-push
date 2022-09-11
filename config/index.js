@@ -3,15 +3,15 @@ export const config = {
    * 公众号配置
    */
 
-  // 公众号APP_ID
+   公众号APP_ID
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_ID: "",
+  APP_ID: "wx1b47061183b844a4",
 
-  // 公众号APP_SECRET
+    公众号APP_SECRET
   // 建议不要填这里，请使用文档中github secret的方法进行保密配置，保护您的隐私安全。
   // 如果你非要填这里也行。脚本也能运行
-  APP_SECRET: "",
+  APP_SECRET: "384e78e2cb569be3d6dfccb94d516f65",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
@@ -31,17 +31,17 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "言言",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "owYNU6GBMXdyZdoQR620OG3MjB30",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "",
+      useTemplateId: "lof8oRfrFPrJh4SLSP6MKiQDkIiRsJQXmLYneWCfdFc",
       // 所在省份
-      province: "广东",
+      province: "四川",
       // 所在城市
-      city: "肇庆",
+      city: "资阳",
       // 新历生日, 仅用作获取星座运势, 格式必须
-      horoscopeDate: '12-27',
+      horoscopeDate: '12-22',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
@@ -49,52 +49,49 @@ export const config = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09"},
-        {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+        {"type": "*生日", "name": "亲爱的老婆", "year": "2006", "date": "12-22"},
+        {"type": "节日", "name": "恋爱纪念日", "year": "2022", "date": "09-07"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-        {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+        {"type": "生日", "name": "你老公", "year": "2001", "date": "08-01"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        {"keyword": "love_day", date: "2022-09-08"},
-        // 结婚纪念日
-        {"keyword": "marry_day", date: "2022-09-09"},
-        // 退伍日
-        {"keyword": "ex_day", date: "2022-09-10"},
+        {"keyword": "love_day", date: "2022-09-07"},
       ]
     },
     {
-      name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      name: "言言",
+      id: "owYNU6GBMXdyZdoQR620OG3MjB30",
+      useTemplateId: "lof8oRfrFPrJh4SLSP6MKiQDkIiRsJQXmLYneWCfdFc",
+      province: "四川",
+      city: "资阳",
+      horoscopeDate: '12-22',
+      horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      festivals: [   {"type": "*生日", "name": "亲爱的老婆", "year": "2006", "date": "12-22"},
+        {"type": "节日", "name": "恋爱纪念日", "year": "2022", "date": "09-07"},  {"type": "生日", "name": "你老公", "year": "2001", "date": "08-01"},],
+      customizedDateList: [{"keyword": "love_day", date: "2022-09-07"},]
     },
     {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      name: "自己",
+      id: "owYNU6O4F6p_RXzstIQ8bqnJcmCc",
+      useTemplateId: "veCNUJMLWzCUDRg-l5yhIL12RlK2OK5p3pqfZy_xizo",
+      province: "安徽",
+      city: "马鞍山",
+      horoscopeDate: '08-01',
+      horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      festivals: [{"type": "*生日", "name": "亲爱的老婆", "year": "2006", "date": "12-22"},
+        {"type": "节日", "name": "恋爱纪念日", "year": "2022", "date": "09-07"},  {"type": "生日", "name": "你老公", "year": "2001", "date": "08-01"},],
+      customizedDateList: [{"keyword": "love_day", date: "2022-09-07"},]
     },
     {
-      name: "老婆3",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
+      name: "韩佳琪",
+      id: "owYNU6IwQkS7g1Ff7pxK_58tUoCA",
+      useTemplateId: "pIeGEQ5AaG4La7KtLzkqzh3NUBTHKat2IxGFChu_6o0",
+      province: "辽宁",
+      city: "本溪",
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: "https://wangxinleo.cn",
@@ -108,7 +105,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "",
+  CALLBACK_TEMPLATE_ID: "RPE8ct_fubReCZcTMW3rDUUBiErdlEApKx4TTldr4Zo",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -116,7 +113,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "owYNU6O4F6p_RXzstIQ8bqnJcmCc",
     },
   ],
 
@@ -127,9 +124,9 @@ export const config = {
   /** 天气相关 */
 
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "广东",
+  PROVINCE: "安徽",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "惠州",
+  CITY: "宣城",
 
   /** 重要节日相关 */
 
@@ -144,11 +141,10 @@ export const config = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09"},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
+    {"type": "*生日", "name": "亲爱的老婆", "year": "2006", "date": "12-22"},
+    {"type": "节日", "name": "恋爱纪念日", "year": "2022", "date": "09-07"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    {"type": "生日", "name": "你老公", "year": "2001", "date": "08-01"},
   ],
 
   /**
@@ -167,13 +163,6 @@ export const config = {
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
     {"keyword": "love_day", date: "2022-09-08"},
-    // 结婚纪念日
-    {"keyword": "marry_day", date: "2022-09-09"},
-    // 退伍日
-    {"keyword": "ex_day", date: "2022-09-10"},
-    // sakana日
-    // {"keyword": "sakana_day", date: "2022-01-06"},
-    // ...
   ],
 
   /** 插槽 */
