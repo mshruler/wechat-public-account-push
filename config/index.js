@@ -69,7 +69,7 @@ export const config = {
       horoscopeDate: '12-22',
       horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [   {"type": "*生日", "name": "亲爱的老婆", "year": "2006", "date": "12-22"},
+      festivals: [   {"type": "*生日", "name": "亲爱的老婆", "year": "2007", "date": "12-22"},
         {"type": "节日", "name": "恋爱纪念日", "year": "2022", "date": "09-07"},  {"type": "生日", "name": "你老公", "year": "2001", "date": "08-01"},],
       customizedDateList: [{"keyword": "love_day", date: "2022-09-07"},]
     },
@@ -82,7 +82,7 @@ export const config = {
       horoscopeDate: '08-01',
       horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [{"type": "*生日", "name": "亲爱的老婆", "year": "2006", "date": "12-22"},
+      festivals: [{"type": "*生日", "name": "亲爱的老婆", "year": "2007", "date": "12-22"},
         {"type": "节日", "name": "恋爱纪念日", "year": "2022", "date": "09-07"},  {"type": "生日", "name": "你老公", "year": "2001", "date": "08-01"},],
       customizedDateList: [{"keyword": "love_day", date: "2022-09-07"},]
     },
@@ -141,7 +141,7 @@ export const config = {
    */
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-    {"type": "*生日", "name": "亲爱的老婆", "year": "2006", "date": "12-22"},
+    {"type": "*生日", "name": "亲爱的老婆", "year": "2007", "date": "12-22"},
     {"type": "节日", "name": "恋爱纪念日", "year": "2022", "date": "09-07"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
     {"type": "生日", "name": "你老公", "year": "2001", "date": "08-01"},
