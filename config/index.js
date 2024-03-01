@@ -65,7 +65,7 @@ export const config = {
       id: "owYNU6GBMXdyZdoQR620OG3MjB30",
       useTemplateId: "utsYf5IpMOwSVMxqy3c3OSn87upIP78XyGoTOjhrx6w",
       province: "北京",
-      city: "昌平区",
+      city: "北京",
       horoscopeDate: '03-11',
       horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
@@ -75,7 +75,7 @@ export const config = {
     },
     {
       name: "自己",
-      id: "utsYf5IpMOwSVMxqy3c3OSn87upIP78XyGoTOjhrx6w",
+      id: "oBe_w6uMiKob9WXlOPaxp0oGYlZM",
       useTemplateId: "utsYf5IpMOwSVMxqy3c3OSn87upIP78XyGoTOjhrx6w",
       province: "安徽",
       city: "马鞍山",
