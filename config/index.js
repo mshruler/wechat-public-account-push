@@ -68,7 +68,7 @@ export const config = {
       city: "北京",
       horoscopeDate: '03-11',
       horoscopeDateType: '今日',
-      openUrl: "https://wangxinleo.cn",
+      openUrl: "https://www.bilibili.com",
       festivals: [   {"type": "*生日", "name": "亲爱的老婆", "year": "2012", "date": "03-11"},
         {"type": "节日", "name": "恋爱纪念日", "year": "2024", "date": "02-15"},  {"type": "生日", "name": "你老公", "year": "2002", "date": "06-23"},],
       customizedDateList: [{"keyword": "love_day", date: "2024-02-15"},]
@@ -81,7 +81,7 @@ export const config = {
       city: "马鞍山",
       horoscopeDate: '06-23',
       horoscopeDateType: '今日',
-      openUrl: "https://wangxinleo.cn",
+      openUrl: "https://www.bilibili.com",
       festivals: [{"type": "*生日", "name": "亲爱的老婆", "year": "2012", "date": "03-11"},
         {"type": "节日", "name": "恋爱纪念日", "year": "2024", "date": "02-15"},  {"type": "生日", "name": "你老公", "year": "2002", "date": "06-23"},],
       customizedDateList: [{"keyword": "love_day", date: "2024-02-15"},]
@@ -113,7 +113,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "owYNU6O4F6p_RXzstIQ8bqnJcmCc",
+      id: "oBe_w6uMiKob9WXlOPaxp0oGYlZM",
     },
   ],
 
