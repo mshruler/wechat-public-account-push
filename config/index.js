@@ -61,30 +61,30 @@ export const config = {
       ]
     },
     {
-      name: "言言",
+      name: "瑞婕",
       id: "owYNU6GBMXdyZdoQR620OG3MjB30",
-      useTemplateId: "lof8oRfrFPrJh4SLSP6MKiQDkIiRsJQXmLYneWCfdFc",
-      province: "四川",
-      city: "资阳",
-      horoscopeDate: '12-22',
+      useTemplateId: "utsYf5IpMOwSVMxqy3c3OSn87upIP78XyGoTOjhrx6w",
+      province: "北京",
+      city: "昌平区",
+      horoscopeDate: '03-11',
       horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [   {"type": "*生日", "name": "亲爱的老婆", "year": "2007", "date": "12-22"},
-        {"type": "节日", "name": "恋爱纪念日", "year": "2022", "date": "09-07"},  {"type": "生日", "name": "你老公", "year": "2001", "date": "08-01"},],
-      customizedDateList: [{"keyword": "love_day", date: "2022-09-07"},]
+      festivals: [   {"type": "*生日", "name": "亲爱的老婆", "year": "2012", "date": "03-11"},
+        {"type": "节日", "name": "恋爱纪念日", "year": "2024", "date": "02-15"},  {"type": "生日", "name": "你老公", "year": "2002", "date": "06-23"},],
+      customizedDateList: [{"keyword": "love_day", date: "2024-02-15"},]
     },
     {
       name: "自己",
-      id: "owYNU6O4F6p_RXzstIQ8bqnJcmCc",
-      useTemplateId: "veCNUJMLWzCUDRg-l5yhIL12RlK2OK5p3pqfZy_xizo",
+      id: "utsYf5IpMOwSVMxqy3c3OSn87upIP78XyGoTOjhrx6w",
+      useTemplateId: "utsYf5IpMOwSVMxqy3c3OSn87upIP78XyGoTOjhrx6w",
       province: "安徽",
       city: "马鞍山",
-      horoscopeDate: '08-01',
+      horoscopeDate: '06-23',
       horoscopeDateType: '今日',
       openUrl: "https://wangxinleo.cn",
-      festivals: [{"type": "*生日", "name": "亲爱的老婆", "year": "2007", "date": "12-22"},
-        {"type": "节日", "name": "恋爱纪念日", "year": "2022", "date": "09-07"},  {"type": "生日", "name": "你老公", "year": "2001", "date": "08-01"},],
-      customizedDateList: [{"keyword": "love_day", date: "2022-09-07"},]
+      festivals: [{"type": "*生日", "name": "亲爱的老婆", "year": "2012", "date": "03-11"},
+        {"type": "节日", "name": "恋爱纪念日", "year": "2024", "date": "02-15"},  {"type": "生日", "name": "你老公", "year": "2002", "date": "06-23"},],
+      customizedDateList: [{"keyword": "love_day", date: "2024-02-15"},]
     },
     {
       name: "韩佳琪",
